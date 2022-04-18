@@ -79,11 +79,13 @@ img {
 
 .about-paragraphs {
   display: flex;
+  justify-content:space-evenly;
   margin: 30px 0;
 }
 
 .about-paragraphs p {
   margin: 10px;
+  flex: 1;
 }
 
 .email-link {
